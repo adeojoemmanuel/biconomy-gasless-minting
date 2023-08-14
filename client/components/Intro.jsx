@@ -15,11 +15,11 @@ const Intro = () => {
         <div className="text-md font-bold">
           Repository:{' '}
           <a
-            href="https://github.com/bcnmy/gasless-minting-demo"
+            href="https://github.com/adeojoemmanuel/biconomy-gasless-minting"
             target="_blank"
             className="text-blue-600"
           >
-            bcnmy/gasless-minting-demo
+            gasless-minting
           </a>
         </div>
       </div>
