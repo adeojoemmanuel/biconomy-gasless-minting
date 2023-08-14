@@ -36,7 +36,7 @@ https://
 
 ```
  git clone https://github.com/adeojoemmanuel/biconomy-gasless-minting.git
- cd gasless-minting
+ cd biconomy-gasless-minting
 ```
 
 2. Installing dependencies
