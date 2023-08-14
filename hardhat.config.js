@@ -28,6 +28,6 @@ module.exports = {
 		},
 	},
 	etherscan: {
-		apiKey: 'IZ32UWRXR4PM5SF6RRWDHDQU8A74VABFFB',
+		apiKey: process.env.ETHER_SCAN_KEY
 	},
 }
