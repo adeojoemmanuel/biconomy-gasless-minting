@@ -1,0 +1,23 @@
+{
+	"name": "hardhat-gasless-minting",
+	"scripts": {
+		"test": "jest"
+	},
+	"devDependencies": {
+		"@nomiclabs/hardhat-ethers": "^2.0.3",
+		"@nomiclabs/hardhat-etherscan": "^3.1.7",
+		"@nomiclabs/hardhat-waffle": "^2.0.1",
+		"@openzeppelin/contracts": "^4.3.2",
+		"chai": "^4.3.7",
+		"dotenv": "^10.0.0",
+		"ethereum-waffle": "^3.4.0",
+		"ethers": "^5.5.2",
+		"hardhat": "^2.8.0",
+		"mocha": "^10.2.0"
+	},
+	"dependencies": {
+		"@metamask/eth-sig-util": "^4.0.0",
+		"eth-sig-util": "^3.0.1",
+		"ethereumjs-abi": "^0.6.8"
+	}
+}
