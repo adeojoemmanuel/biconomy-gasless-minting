@@ -1,5 +1,7 @@
 # Gasless Minting using biconomy.io
 
+Biconomy achieved this by acting as a middleware layer between the user and the blockchain network.
+
 ## Table of Contents
 - [Deployed Website url](#deployed-website-url)
 - [Deployed Contract Address](#deployed-contract-address)
