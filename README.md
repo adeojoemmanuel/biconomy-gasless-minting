@@ -16,9 +16,11 @@ https://
 ## Deployed Contract Address
 
 `Custom approach Contract deployed to: 0xA59718944B7B82f06bEaBa465F2F38644206AA33`
+
+
 `EIP2771 approach Contract deployed to: 0x325Db85065875Fc690396765Eea6aD7F1A62ABE5`
 
-## Clone, Install and Build steps for client
+## Clone, Install, test and Build steps for client and sm
 
 ### Prerequisites
 
@@ -33,7 +35,7 @@ https://
 1. Clone the project repository on your local machine
 
 ```
- git clone 
+ git clone https://github.com/adeojoemmanuel/biconomy-gasless-minting.git
  cd gasless-minting
 ```
 
@@ -70,6 +72,14 @@ npx hardhat compile
 ```
   npx hardhat run scripts/deploy.js --network mumbai
 ```
+
+###  test
+
+```npx mocha test/test.js```
+
+```npx mocha test/test2771.js```
+
+
 
 ### Environment variables
 
